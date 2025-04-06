@@ -21,7 +21,7 @@ int main() {
     int A[ROWS_A][COLS_A]; // A matrisi (2x3)
     int B[ROWS_B][COLS_B]; // B matrisi (3x2)
     int result[ROWS_A][COLS_B];  // (2x2) sonuc matrisi
-    int transposedA[COLS_A][ROWS_B]; // A matrisinin transpozu
+    int transposedA[COLS_A][ROWS_A]; // A matrisinin transpozu
     int transposedB[ROWS_B][COLS_B];  // B matrisinin transpozu
 
     // A ve B matrislerini rastgele değerlerle doldurma
